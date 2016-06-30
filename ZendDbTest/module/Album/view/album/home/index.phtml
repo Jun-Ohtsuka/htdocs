@@ -1,0 +1,16 @@
+<?php $this->headTitle()->set('home'); ?>
+<div id="test">
+  <h1>Home/index!</h1>
+  <table border=1px>
+    <tr>
+      <th>ID</th><th>名前</th><th>点数 </th>
+    </tr>
+    <?php foreach ($albums as $album) : ?>
+      <tr>
+        <td><?php echo $album->id; ?></td>
+        <td><?php echo $album->name; ?></td>
+        <td><?php echo $album->score; ?></td>
+      </tr>
+    <?php endforeach; ?>
+  </table>
+</div>

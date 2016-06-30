@@ -1,0 +1,17 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Module	C:\xampp\htdocs\ZendDbTest\module\Album\Module.php	/^class Module{$/;"	class	line:11
+onBootstrap	C:\xampp\htdocs\ZendDbTest\module\Album\Module.php	/^  public function onBootstrap(MvcEvent $e){$/;"	function	line:12
+eventManager	C:\xampp\htdocs\ZendDbTest\module\Album\Module.php	/^    $eventManager        = $e->getApplication()->getEventManager();$/;"	variable	line:13
+moduleRouteListener	C:\xampp\htdocs\ZendDbTest\module\Album\Module.php	/^    $moduleRouteListener = new ModuleRouteListener();$/;"	variable	line:14
+getConfig	C:\xampp\htdocs\ZendDbTest\module\Album\Module.php	/^  public function getConfig(){$/;"	function	line:18
+getAutoloaderConfig	C:\xampp\htdocs\ZendDbTest\module\Album\Module.php	/^  public function getAutoloaderConfig(){$/;"	function	line:22
+getServiceConfig	C:\xampp\htdocs\ZendDbTest\module\Album\Module.php	/^  public function getServiceConfig(){$/;"	function	line:32
+tableGateway	C:\xampp\htdocs\ZendDbTest\module\Album\Module.php	/^          $tableGateway = $sm->get('AlbumTableGateway');$/;"	variable	line:36
+table	C:\xampp\htdocs\ZendDbTest\module\Album\Module.php	/^          $table = new AlbumTable($tableGateway);$/;"	variable	line:37
+dbAdapter	C:\xampp\htdocs\ZendDbTest\module\Album\Module.php	/^          $dbAdapter = $sm->get('Zend\\Db\\Adapter\\Adapter');$/;"	variable	line:41
+resultSetPrototype	C:\xampp\htdocs\ZendDbTest\module\Album\Module.php	/^          $resultSetPrototype = new ResultSet();$/;"	variable	line:42

@@ -1,0 +1,15 @@
+<?php $this->headTitle()->set('Setting'); ?>
+<div id="setting">
+  <?php if(isset($messages)):?>
+    <ul>
+    <?php foreach($messages as $message):?>
+      <li><?php echo $message; ?></li>
+    <?php endforeach; ?>
+  </ul>
+  <?php endif; ?>
+  <form id="addform" action="/wepon/update" method="post">
+    <?php echo $this->render('form.phtml'); ?>
+    <input type="hidden" value="<?php echo $id; ?>" name="id" />
+    <input type="submit" name="submit" value="編集" />
+  </form>
+</div>

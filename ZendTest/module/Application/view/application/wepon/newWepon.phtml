@@ -1,0 +1,14 @@
+<?php $this->headTitle()->set('NewWepon'); ?>
+<div id="newWepon">
+  <?php if(isset($messages)):?>
+    <ul>
+    <?php foreach($messages as $message):?>
+      <li><?php echo $message; ?></li>
+    <?php endforeach; ?>
+  </ul>
+  <?php endif; ?>
+  <form id="addform" action="/wepon/insert" method="post">
+    <?php echo $this->render('form.phtml'); ?>
+    <input type="submit" name="submit" value="登録" />
+  </form>
+</div>

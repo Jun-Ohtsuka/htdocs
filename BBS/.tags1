@@ -1,0 +1,65 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+HomeController	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^class HomeController extends Controller{$/;"	class	line:3
+auth_actions	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^  protected $auth_actions = array('index', 'post', 'dlete');$/;"	variable	line:5
+auth_actions	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^  protected $auth_actions = array('index', 'post', 'dlete');$/;"	variable	line:5
+timeValid	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^  protected function timeValid($errors = array(), $searchStartYear, $searchStartMonth, $searchStartDay, $searchEndYear, $searchEndMonth, $searchEndDay){$/;"	function	line:7
+searchStartMonth	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^    if($searchStartMonth == "4" || $searchStartMonth == "6" || $searchStartMonth == "9" || $searchStartMonth == "11"){$/;"	variable	line:18
+searchEndMonth	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^    if($searchEndMonth == "4" || $searchEndMonth == "6" || $searchEndMonth == "9" || $searchEndMonth == "11"){$/;"	variable	line:33
+startTime	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^    $startTime = "{$searchStartYear}-{$searchStartMonth}-{$searchStartDay}";$/;"	variable	line:39
+endTime	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^    $endTime = "{$searchEndYear}-{$searchEndMonth}-{$searchEndDay}";$/;"	variable	line:40
+indexAction	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^  public function indexAction(){$/;"	function	line:49
+startTime	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^    $startTime = $this->db_manager->get('Thread')->getStartTime();$/;"	variable	line:57
+endTime	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^    $endTime = $this->db_manager->get('Thread')->getEndTime();$/;"	variable	line:58
+startTime	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^    $startTime = date('Y-m-d', strtotime($startTime['insert_date']));$/;"	variable	line:59
+startTime	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^    $startTime = explode("-", $startTime);$/;"	variable	line:60
+endTime	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^    $endTime = date('Y-m-d', strtotime($endTime['insert_date']));$/;"	variable	line:61
+endTime	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^    $endTime = explode("-", $endTime);$/;"	variable	line:62
+searchStartYear	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^    $searchStartYear = $startTime[0];$/;"	variable	line:63
+searchStartYear	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^    $searchStartYear = $startTime[0];$/;"	variable	line:64
+searchStartMonth	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^    $searchStartMonth = $startTime[1];$/;"	variable	line:65
+searchStartDay	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^    $searchStartDay = $startTime[2];$/;"	variable	line:66
+searchEndYear	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^    $searchEndYear = $endTime[0];$/;"	variable	line:67
+searchEndMonth	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^    $searchEndMonth = $endTime[1];$/;"	variable	line:68
+searchEndDay	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^    $searchEndDay = $endTime[2];$/;"	variable	line:69
+category	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^    $category = 'category';$/;"	variable	line:70
+category	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^      $category = $this->request->getGet('searchCategory');$/;"	variable	line:73
+searchStartYear	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^      $searchStartYear = $this->request->getGet('startYear');$/;"	variable	line:77
+searchStartMonth	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^      $searchStartMonth = $this->request->getGet('startMonth');$/;"	variable	line:80
+searchStartDay	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^      $searchStartDay = $this->request->getGet('startDay');$/;"	variable	line:83
+searchEndYear	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^      $searchEndYear = $this->request->getGet('endYear');$/;"	variable	line:87
+searchEndMonth	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^      $searchEndMonth = $this->request->getGet('endMonth');$/;"	variable	line:90
+searchEndDay	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^      $searchEndDay = $this->request->getGet('endDay');$/;"	variable	line:93
+errors	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^    $errors = array();$/;"	variable	line:95
+errors	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^    $errors = $this->timeValid($errors,$searchStartYear, $searchStartMonth, $searchStartDay, $searchEndYear, $searchEndMonth, $searchEndDay);$/;"	variable	line:96
+searchStartYear	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^      $searchStartYear = $startTime[0];$/;"	variable	line:99
+searchStartYear	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^      $searchStartYear = $startTime[0];$/;"	variable	line:100
+searchStartMonth	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^      $searchStartMonth = $startTime[1];$/;"	variable	line:101
+searchStartDay	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^      $searchStartDay = $startTime[2];$/;"	variable	line:102
+searchEndYear	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^      $searchEndYear = $endTime[0];$/;"	variable	line:103
+searchEndMonth	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^      $searchEndMonth = $endTime[1];$/;"	variable	line:104
+searchEndDay	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^      $searchEndDay = $endTime[2];$/;"	variable	line:105
+searchStartTime	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^    $searchStartTime = "{$searchStartYear}-{$searchStartMonth}-{$searchStartDay} 00:00:00";$/;"	variable	line:108
+searchEndTime	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^    $searchEndTime = "{$searchEndYear}-{$searchEndMonth}-{$searchEndDay} 23:59:59";$/;"	variable	line:109
+loginUser	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^    $loginUser = $this->session->get('loginUser');$/;"	variable	line:111
+threads	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^    $threads = $this->db_manager->get('Thread')->fetchAllThread($searchStartTime, $searchEndTime, $category);$/;"	variable	line:113
+comments	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^    $comments = $this->db_manager->get('Comment')->fetchAllComment();$/;"	variable	line:114
+categorys	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^    $categorys = $this->db_manager->get('Category')->getCategory();$/;"	variable	line:115
+postAction	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^  public function postAction(){$/;"	function	line:136
+token	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^    $token = $this->request->getPost('_token');$/;"	variable	line:148
+text	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^    $text = $this->request->getPost('text');$/;"	variable	line:153
+thread_id	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^    $thread_id = $this->request->getPost('thread_id');$/;"	variable	line:154
+errors	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^    $errors = array();$/;"	variable	line:156
+loginUser	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^      $loginUser = $this->session->get('loginUser');$/;"	variable	line:164
+threads	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^    $threads = $this->db_manager->get('Thread')->fetchAllThread();$/;"	variable	line:171
+comments	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^    $comments = $this->db_manager->get('Comment')->fetchAllComment();$/;"	variable	line:172
+threadDeleteAction	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^  public function threadDeleteAction(){$/;"	function	line:183
+token	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^    $token = $this->request->getPost('_token');$/;"	variable	line:195
+thread_id	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^    $thread_id = $this->request->getPost('thread_id');$/;"	variable	line:200
+commentDeleteAction	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^  public function commentDeleteAction(){$/;"	function	line:206
+token	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^    $token = $this->request->getPost('_token');$/;"	variable	line:218
+comment_id	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^    $comment_id = $this->request->getPost('comment_id');$/;"	variable	line:223

@@ -1,0 +1,35 @@
+<?php
+  $this->headTitle()->set('home');
+  $this->headLink()->appendStylesheet('css/jquery-ui.min.css');
+  $this->headScript()->appendFile('js/jquery-ui.min.js');
+  $this->headScript()->appendFile('js/script.js');
+ ?>
+
+
+<div id="home">
+  <h1>Home/index!</h1>
+  <div id="navi">
+    <a href="/calculate">計算</a>
+  </div>
+  <table border=1px>
+    <tr>
+      <th>名前</th><th>属性</th><th>HP</th><th>ATK</th><th>スキル1</th><th>スキル2</th><th>スキルレベル</th>
+    </tr>
+    <?php for ($i = 1; $i <= 10; $i++) : ?>
+      <tr>
+        <td>
+          <select class="wepon" name="wepon<?php echo $i; ?>">
+            <option>選択してください</option>
+            <?php foreach($wepons as $wepon): ?>
+              <option value="<?php echo $wepon->id; ?>">
+                <?php echo $wepon->id; ?>
+                <?php echo $wepon->name; ?>
+              </option>
+            <?php endforeach; ?>
+          </select>
+        </td>
+        <div class="wepondata<?php echo $i; ?>"></div>
+      </tr>
+    <?php endfor; ?>
+  </table>
+</div>

@@ -1,0 +1,425 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BbsApplication	C:\xampp\htdocs\BBS\BbsApplication.php	/^class BbsApplication extends Application{$/;"	class	line:3
+login_action	C:\xampp\htdocs\BBS\BbsApplication.php	/^  protected $login_action = array('account', 'signin');$/;"	variable	line:4
+login_action	C:\xampp\htdocs\BBS\BbsApplication.php	/^  protected $login_action = array('account', 'signin');$/;"	variable	line:4
+getRootDir	C:\xampp\htdocs\BBS\BbsApplication.php	/^  public function getRootDir(){$/;"	function	line:6
+registerRoutes	C:\xampp\htdocs\BBS\BbsApplication.php	/^  protected function registerRoutes(){$/;"	function	line:10
+configure	C:\xampp\htdocs\BBS\BbsApplication.php	/^  protected function configure(){$/;"	function	line:27
+loader	C:\xampp\htdocs\BBS\bootstrap.php	/^$loader = new ClassLoader();$/;"	variable	line:5
+AccountController	C:\xampp\htdocs\BBS\controllers\AccountController.php	/^class AccountController extends Controller {$/;"	class	line:3
+auth_actions	C:\xampp\htdocs\BBS\controllers\AccountController.php	/^  \/\/protected $auth_actions = array('index', 'signout');$/;"	variable	line:5
+signupAction	C:\xampp\htdocs\BBS\controllers\AccountController.php	/^  public function signupAction(){$/;"	function	line:7
+branchs	C:\xampp\htdocs\BBS\controllers\AccountController.php	/^    $branchs = $this->db_manager->get('Branch')->getBranch();$/;"	variable	line:8
+positions	C:\xampp\htdocs\BBS\controllers\AccountController.php	/^    $positions = $this->db_manager->get('Position')->getPosition();$/;"	variable	line:9
+registerAction	C:\xampp\htdocs\BBS\controllers\AccountController.php	/^  public function registerAction(){$/;"	function	line:22
+token	C:\xampp\htdocs\BBS\controllers\AccountController.php	/^    $token = $this->request->getPost('_token');$/;"	variable	line:27
+user_name	C:\xampp\htdocs\BBS\controllers\AccountController.php	/^    $user_name = $this->request->getPost('user_name');$/;"	variable	line:32
+account	C:\xampp\htdocs\BBS\controllers\AccountController.php	/^    $account = $this->request->getPost('account');$/;"	variable	line:33
+password	C:\xampp\htdocs\BBS\controllers\AccountController.php	/^    $password = $this->request->getPost('password');$/;"	variable	line:34
+checkPassword	C:\xampp\htdocs\BBS\controllers\AccountController.php	/^    $checkPassword = $this->request->getPost('checkPassword');$/;"	variable	line:35
+branch_id	C:\xampp\htdocs\BBS\controllers\AccountController.php	/^    $branch_id = $this->request->getPost('branch_id');$/;"	variable	line:36
+position_id	C:\xampp\htdocs\BBS\controllers\AccountController.php	/^    $position_id = $this->request->getPost('position_id');$/;"	variable	line:37
+user_id	C:\xampp\htdocs\BBS\controllers\AccountController.php	/^    $user_id = "0";$/;"	variable	line:38
+errors	C:\xampp\htdocs\BBS\controllers\AccountController.php	/^    $errors = array();$/;"	variable	line:40
+branchs	C:\xampp\htdocs\BBS\controllers\AccountController.php	/^    $branchs = $this->db_manager->get('Branch')->getBranch();$/;"	variable	line:74
+positions	C:\xampp\htdocs\BBS\controllers\AccountController.php	/^    $positions = $this->db_manager->get('Position')->getPosition();$/;"	variable	line:75
+signinAction	C:\xampp\htdocs\BBS\controllers\AccountController.php	/^  public function signinAction(){$/;"	function	line:89
+branchs	C:\xampp\htdocs\BBS\controllers\AccountController.php	/^    $branchs = $this->db_manager->get('Branch')->getBranch();$/;"	variable	line:90
+positions	C:\xampp\htdocs\BBS\controllers\AccountController.php	/^    $positions = $this->db_manager->get('Position')->getPosition();$/;"	variable	line:91
+authenticateAction	C:\xampp\htdocs\BBS\controllers\AccountController.php	/^  public function authenticateAction(){$/;"	function	line:99
+token	C:\xampp\htdocs\BBS\controllers\AccountController.php	/^    $token = $this->request->getPost('_token');$/;"	variable	line:108
+account	C:\xampp\htdocs\BBS\controllers\AccountController.php	/^    $account = $this->request->getPost('account');$/;"	variable	line:113
+password	C:\xampp\htdocs\BBS\controllers\AccountController.php	/^    $password = $this->request->getPost('password');$/;"	variable	line:114
+errors	C:\xampp\htdocs\BBS\controllers\AccountController.php	/^    $errors = array();$/;"	variable	line:116
+user_repository	C:\xampp\htdocs\BBS\controllers\AccountController.php	/^      $user_repository = $this->db_manager->get('User');$/;"	variable	line:127
+user	C:\xampp\htdocs\BBS\controllers\AccountController.php	/^      $user = $user_repository->fetchByUserName($account);$/;"	variable	line:128
+signoutAction	C:\xampp\htdocs\BBS\controllers\AccountController.php	/^  public function signoutAction(){$/;"	function	line:147
+settingAction	C:\xampp\htdocs\BBS\controllers\AccountController.php	/^  public function settingAction(){$/;"	function	line:154
+user_id	C:\xampp\htdocs\BBS\controllers\AccountController.php	/^    $user_id = $this->request->getGet('id');$/;"	variable	line:155
+branchs	C:\xampp\htdocs\BBS\controllers\AccountController.php	/^    $branchs = $this->db_manager->get('Branch')->getBranch();$/;"	variable	line:156
+positions	C:\xampp\htdocs\BBS\controllers\AccountController.php	/^    $positions = $this->db_manager->get('Position')->getPosition();$/;"	variable	line:157
+editedUser	C:\xampp\htdocs\BBS\controllers\AccountController.php	/^    $editedUser = $this->db_manager->get('User')->getUserById($user_id);$/;"	variable	line:159
+indexAction	C:\xampp\htdocs\BBS\controllers\AccountController.php	/^  public function indexAction(){$/;"	function	line:173
+loginUser	C:\xampp\htdocs\BBS\controllers\AccountController.php	/^    $loginUser = $this->session->get('loginUser');$/;"	variable	line:174
+users	C:\xampp\htdocs\BBS\controllers\AccountController.php	/^    $users = $this->db_manager->get('User')->getUsers();$/;"	variable	line:175
+updateAction	C:\xampp\htdocs\BBS\controllers\AccountController.php	/^  public function updateAction(){$/;"	function	line:184
+user_id	C:\xampp\htdocs\BBS\controllers\AccountController.php	/^    $user_id = $this->request->getPost('user_id');$/;"	variable	line:189
+token	C:\xampp\htdocs\BBS\controllers\AccountController.php	/^    $token = $this->request->getPost('_token');$/;"	variable	line:191
+user_name	C:\xampp\htdocs\BBS\controllers\AccountController.php	/^    $user_name = $this->request->getPost('user_name');$/;"	variable	line:196
+account	C:\xampp\htdocs\BBS\controllers\AccountController.php	/^    $account = $this->request->getPost('account');$/;"	variable	line:197
+password	C:\xampp\htdocs\BBS\controllers\AccountController.php	/^    $password = $this->request->getPost('password');$/;"	variable	line:198
+checkPassword	C:\xampp\htdocs\BBS\controllers\AccountController.php	/^    $checkPassword = $this->request->getPost('checkPassword');$/;"	variable	line:199
+branch_id	C:\xampp\htdocs\BBS\controllers\AccountController.php	/^    $branch_id = $this->request->getPost('branch_id');$/;"	variable	line:200
+position_id	C:\xampp\htdocs\BBS\controllers\AccountController.php	/^    $position_id = $this->request->getPost('position_id');$/;"	variable	line:201
+errors	C:\xampp\htdocs\BBS\controllers\AccountController.php	/^    $errors = array();$/;"	variable	line:203
+branchs	C:\xampp\htdocs\BBS\controllers\AccountController.php	/^    $branchs = $this->db_manager->get('Branch')->getBranch();$/;"	variable	line:233
+positions	C:\xampp\htdocs\BBS\controllers\AccountController.php	/^    $positions = $this->db_manager->get('Position')->getPosition();$/;"	variable	line:234
+freezeAction	C:\xampp\htdocs\BBS\controllers\AccountController.php	/^  public function freezeAction(){$/;"	function	line:248
+user_id	C:\xampp\htdocs\BBS\controllers\AccountController.php	/^    $user_id = $this->request->getPost('user_id');$/;"	variable	line:249
+freezeNow	C:\xampp\htdocs\BBS\controllers\AccountController.php	/^    $freezeNow = $this->request->getPost('freeze');$/;"	variable	line:250
+loginUser	C:\xampp\htdocs\BBS\controllers\AccountController.php	/^    $loginUser = $this->session->get('loginUser');$/;"	variable	line:252
+users	C:\xampp\htdocs\BBS\controllers\AccountController.php	/^    $users = $this->db_manager->get('User')->getUsers();$/;"	variable	line:253
+HomeController	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^class HomeController extends Controller{$/;"	class	line:3
+auth_actions	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^  \/\/protected $auth_actions = array('index', 'post');$/;"	variable	line:5
+indexAction	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^  public function indexAction(){$/;"	function	line:7
+loginUser	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^    $loginUser = $this->session->get('loginUser');$/;"	variable	line:8
+threads	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^    $threads = $this->db_manager->get('Thread')->fetchAllThread();$/;"	variable	line:9
+comments	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^    $comments = $this->db_manager->get('Comment')->fetchAllComment();$/;"	variable	line:10
+postAction	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^  public function postAction(){$/;"	function	line:20
+token	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^    $token = $this->request->getPost('_token');$/;"	variable	line:25
+text	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^    $text = $this->request->getPost('text');$/;"	variable	line:30
+thread_id	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^    $thread_id = $this->request->getPost('thread_id');$/;"	variable	line:31
+errors	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^    $errors = array();$/;"	variable	line:33
+loginUser	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^      $loginUser = $this->session->get('loginUser');$/;"	variable	line:41
+threads	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^    $threads = $this->db_manager->get('Thread')->fetchAllThread();$/;"	variable	line:49
+comments	C:\xampp\htdocs\BBS\controllers\HomeController.php	/^    $comments = $this->db_manager->get('Comment')->fetchAllComment();$/;"	variable	line:50
+NewThreadController	C:\xampp\htdocs\BBS\controllers\NewThreadController.php	/^class NewThreadController extends Controller{$/;"	class	line:3
+auth_actions	C:\xampp\htdocs\BBS\controllers\NewThreadController.php	/^  \/\/protected $auth_actions = array('index', 'post');$/;"	variable	line:5
+indexAction	C:\xampp\htdocs\BBS\controllers\NewThreadController.php	/^  public function indexAction(){$/;"	function	line:7
+categoryType	C:\xampp\htdocs\BBS\controllers\NewThreadController.php	/^    $categoryType = 0;$/;"	variable	line:8
+categorys	C:\xampp\htdocs\BBS\controllers\NewThreadController.php	/^    $categorys = $this->db_manager->get('Category')->getCategory();$/;"	variable	line:9
+postAction	C:\xampp\htdocs\BBS\controllers\NewThreadController.php	/^  public function postAction(){$/;"	function	line:21
+submit	C:\xampp\htdocs\BBS\controllers\NewThreadController.php	/^    $submit = $this->request->getPost('submit');$/;"	variable	line:26
+categoryType	C:\xampp\htdocs\BBS\controllers\NewThreadController.php	/^    $categoryType = $this->request->getPost('categoryType');$/;"	variable	line:27
+title	C:\xampp\htdocs\BBS\controllers\NewThreadController.php	/^    $title = $this->request->getPost('title');$/;"	variable	line:28
+category	C:\xampp\htdocs\BBS\controllers\NewThreadController.php	/^    $category = $this->request->getPost('category');$/;"	variable	line:29
+text	C:\xampp\htdocs\BBS\controllers\NewThreadController.php	/^    $text = $this->request->getPost('text');$/;"	variable	line:31
+categorys	C:\xampp\htdocs\BBS\controllers\NewThreadController.php	/^    $categorys = $this->db_manager->get('Category')->getCategory();$/;"	variable	line:32
+token	C:\xampp\htdocs\BBS\controllers\NewThreadController.php	/^      $token = $this->request->getPost('_token');$/;"	variable	line:35
+errors	C:\xampp\htdocs\BBS\controllers\NewThreadController.php	/^      $errors = array();$/;"	variable	line:40
+loginUser	C:\xampp\htdocs\BBS\controllers\NewThreadController.php	/^      $loginUser = $this->session->get('loginUser');$/;"	variable	line:58
+categoryType	C:\xampp\htdocs\BBS\controllers\NewThreadController.php	/^      $categoryType = 1;$/;"	variable	line:75
+categoryType	C:\xampp\htdocs\BBS\controllers\NewThreadController.php	/^      $categoryType = 0;$/;"	variable	line:85
+Application	C:\xampp\htdocs\BBS\core\Application.php	/^abstract class Application{$/;"	class	line:3
+debug	C:\xampp\htdocs\BBS\core\Application.php	/^  protected $debug = false;$/;"	variable	line:5
+debug	C:\xampp\htdocs\BBS\core\Application.php	/^  protected $debug = false;$/;"	variable	line:5
+request	C:\xampp\htdocs\BBS\core\Application.php	/^  protected $request;$/;"	variable	line:6
+response	C:\xampp\htdocs\BBS\core\Application.php	/^  protected $response;$/;"	variable	line:7
+session	C:\xampp\htdocs\BBS\core\Application.php	/^  protected $session;$/;"	variable	line:8
+db_manager	C:\xampp\htdocs\BBS\core\Application.php	/^  protected $db_manager;$/;"	variable	line:9
+__construct	C:\xampp\htdocs\BBS\core\Application.php	/^  public function __construct($debug){$/;"	function	line:11
+setDebugMode	C:\xampp\htdocs\BBS\core\Application.php	/^  protected function setDebugMode($debug){$/;"	function	line:17
+debug	C:\xampp\htdocs\BBS\core\Application.php	/^      $this->debug = true;$/;"	variable	line:19
+debug	C:\xampp\htdocs\BBS\core\Application.php	/^      $this->debug = false;$/;"	variable	line:23
+initialize	C:\xampp\htdocs\BBS\core\Application.php	/^  protected function initialize(){$/;"	function	line:28
+request	C:\xampp\htdocs\BBS\core\Application.php	/^    $this->request = new Request();$/;"	variable	line:29
+response	C:\xampp\htdocs\BBS\core\Application.php	/^    $this->response = new Response();$/;"	variable	line:30
+session	C:\xampp\htdocs\BBS\core\Application.php	/^    $this->session = new Session();$/;"	variable	line:31
+db_manager	C:\xampp\htdocs\BBS\core\Application.php	/^    $this->db_manager = new DbManager();$/;"	variable	line:32
+router	C:\xampp\htdocs\BBS\core\Application.php	/^    $this->router = new Router($this->registerRoutes());$/;"	variable	line:33
+configure	C:\xampp\htdocs\BBS\core\Application.php	/^  protected function configure(){}$/;"	function	line:36
+getRootDir	C:\xampp\htdocs\BBS\core\Application.php	/^  abstract public function getRootDir();$/;"	function	line:37
+registerRoutes	C:\xampp\htdocs\BBS\core\Application.php	/^  abstract protected function registerRoutes();$/;"	function	line:38
+isDebugMode	C:\xampp\htdocs\BBS\core\Application.php	/^  public function isDebugMode(){$/;"	function	line:40
+getRequest	C:\xampp\htdocs\BBS\core\Application.php	/^  public function getRequest(){$/;"	function	line:44
+getResponse	C:\xampp\htdocs\BBS\core\Application.php	/^  public function getResponse(){$/;"	function	line:48
+getSession	C:\xampp\htdocs\BBS\core\Application.php	/^  public function getSession(){$/;"	function	line:52
+getDbManager	C:\xampp\htdocs\BBS\core\Application.php	/^  public function getDbManager(){$/;"	function	line:56
+getControllerDir	C:\xampp\htdocs\BBS\core\Application.php	/^  public function getControllerDir(){$/;"	function	line:60
+getViewDir	C:\xampp\htdocs\BBS\core\Application.php	/^  public function getViewDir(){$/;"	function	line:64
+getModelDir	C:\xampp\htdocs\BBS\core\Application.php	/^  public function getModelDir(){$/;"	function	line:68
+getWebDir	C:\xampp\htdocs\BBS\core\Application.php	/^  public function getWebDir(){$/;"	function	line:72
+run	C:\xampp\htdocs\BBS\core\Application.php	/^  public function run(){$/;"	function	line:76
+params	C:\xampp\htdocs\BBS\core\Application.php	/^      $params = $this->router->resolve($this->request->getPathInfo());$/;"	variable	line:78
+controller	C:\xampp\htdocs\BBS\core\Application.php	/^      $controller = $params['controller'];$/;"	variable	line:83
+action	C:\xampp\htdocs\BBS\core\Application.php	/^      $action = $params['action'];$/;"	variable	line:84
+runAction	C:\xampp\htdocs\BBS\core\Application.php	/^  public function runAction($controller_name, $action, $params = array()){$/;"	function	line:95
+params	C:\xampp\htdocs\BBS\core\Application.php	/^  public function runAction($controller_name, $action, $params = array()){$/;"	variable	line:95
+controller_class	C:\xampp\htdocs\BBS\core\Application.php	/^      $controller_class = ucfirst($controller_name) .'Controller';$/;"	variable	line:98
+controller	C:\xampp\htdocs\BBS\core\Application.php	/^      $controller = $this->findController($controller_class);$/;"	variable	line:100
+content	C:\xampp\htdocs\BBS\core\Application.php	/^      $content = $controller->run($action, $params);$/;"	variable	line:106
+findController	C:\xampp\htdocs\BBS\core\Application.php	/^  protected function findController($controller_class){$/;"	function	line:113
+controller_file	C:\xampp\htdocs\BBS\core\Application.php	/^      $controller_file = $this->getControllerDir() .'\/'. $controller_class .'.php';$/;"	variable	line:115
+render404Page	C:\xampp\htdocs\BBS\core\Application.php	/^  protected function render404Page($e){$/;"	function	line:130
+message	C:\xampp\htdocs\BBS\core\Application.php	/^    $message = $this->isDebugMode() ? $e->getMessage() : 'Page not found.';$/;"	variable	line:132
+message	C:\xampp\htdocs\BBS\core\Application.php	/^    $message = htmlspecialchars($message, ENT_QUOTES, 'UTF-8');$/;"	variable	line:133
+ClassLoader	C:\xampp\htdocs\BBS\core\ClassLoader.php	/^class ClassLoader{$/;"	class	line:3
+dirs	C:\xampp\htdocs\BBS\core\ClassLoader.php	/^  protected $dirs;$/;"	variable	line:4
+register	C:\xampp\htdocs\BBS\core\ClassLoader.php	/^  public function register(){$/;"	function	line:6
+registerDir	C:\xampp\htdocs\BBS\core\ClassLoader.php	/^  public function registerDir($dir){$/;"	function	line:10
+loadClass	C:\xampp\htdocs\BBS\core\ClassLoader.php	/^  public function loadClass($class){$/;"	function	line:14
+file	C:\xampp\htdocs\BBS\core\ClassLoader.php	/^      $file = $dir .'\/'. $class .'.php';$/;"	variable	line:16
+Controller	C:\xampp\htdocs\BBS\core\Controller.php	/^abstract class Controller{$/;"	class	line:3
+controller_name	C:\xampp\htdocs\BBS\core\Controller.php	/^  protected $controller_name;$/;"	variable	line:5
+action_name	C:\xampp\htdocs\BBS\core\Controller.php	/^  protected $action_name;$/;"	variable	line:6
+application	C:\xampp\htdocs\BBS\core\Controller.php	/^  protected $application;$/;"	variable	line:7
+request	C:\xampp\htdocs\BBS\core\Controller.php	/^  protected $request;$/;"	variable	line:8
+response	C:\xampp\htdocs\BBS\core\Controller.php	/^  protected $response;$/;"	variable	line:9
+session	C:\xampp\htdocs\BBS\core\Controller.php	/^  protected $session;$/;"	variable	line:10
+db_manager	C:\xampp\htdocs\BBS\core\Controller.php	/^  protected $db_manager;$/;"	variable	line:11
+auth_actions	C:\xampp\htdocs\BBS\core\Controller.php	/^  protected $auth_actions = array();$/;"	variable	line:12
+auth_actions	C:\xampp\htdocs\BBS\core\Controller.php	/^  protected $auth_actions = array();$/;"	variable	line:12
+login_action	C:\xampp\htdocs\BBS\core\Controller.php	/^  protected $login_action = array();$/;"	variable	line:13
+login_action	C:\xampp\htdocs\BBS\core\Controller.php	/^  protected $login_action = array();$/;"	variable	line:13
+__construct	C:\xampp\htdocs\BBS\core\Controller.php	/^  public function __construct($application){$/;"	function	line:15
+controller_name	C:\xampp\htdocs\BBS\core\Controller.php	/^    $this->controller_name = strtolower(substr(get_class($this), 0, -10));$/;"	variable	line:16
+application	C:\xampp\htdocs\BBS\core\Controller.php	/^    $this->application = $application;$/;"	variable	line:18
+request	C:\xampp\htdocs\BBS\core\Controller.php	/^    $this->request = $application->getRequest();$/;"	variable	line:19
+response	C:\xampp\htdocs\BBS\core\Controller.php	/^    $this->response = $application->getResponse();$/;"	variable	line:20
+session	C:\xampp\htdocs\BBS\core\Controller.php	/^    $this->session = $application->getSession();$/;"	variable	line:21
+db_manager	C:\xampp\htdocs\BBS\core\Controller.php	/^    $this->db_manager = $application->getDbManager();$/;"	variable	line:22
+run	C:\xampp\htdocs\BBS\core\Controller.php	/^  public function run($action, $params = array()){$/;"	function	line:25
+params	C:\xampp\htdocs\BBS\core\Controller.php	/^  public function run($action, $params = array()){$/;"	variable	line:25
+action_name	C:\xampp\htdocs\BBS\core\Controller.php	/^    $this->action_name = $action;$/;"	variable	line:26
+action_method	C:\xampp\htdocs\BBS\core\Controller.php	/^    $action_method = $action .'Action';$/;"	variable	line:28
+content	C:\xampp\htdocs\BBS\core\Controller.php	/^    $content = $this->$action_method($params);$/;"	variable	line:36
+needsAuthentication	C:\xampp\htdocs\BBS\core\Controller.php	/^  protected function needsAuthentication($action){$/;"	function	line:41
+render	C:\xampp\htdocs\BBS\core\Controller.php	/^  protected function render($variables = array(), $template = null, $layout = 'layout'){$/;"	function	line:50
+template	C:\xampp\htdocs\BBS\core\Controller.php	/^  protected function render($variables = array(), $template = null, $layout = 'layout'){$/;"	variable	line:50
+defaults	C:\xampp\htdocs\BBS\core\Controller.php	/^    $defaults = array($/;"	variable	line:51
+view	C:\xampp\htdocs\BBS\core\Controller.php	/^    $view = new View($this->application->getViewDir(), $defaults);$/;"	variable	line:57
+template	C:\xampp\htdocs\BBS\core\Controller.php	/^      $template = $this->action_name;$/;"	variable	line:60
+path	C:\xampp\htdocs\BBS\core\Controller.php	/^    $path = $this->controller_name .'\/'. $template;$/;"	variable	line:63
+forward404	C:\xampp\htdocs\BBS\core\Controller.php	/^  protected function forward404(){$/;"	function	line:67
+redirect	C:\xampp\htdocs\BBS\core\Controller.php	/^  protected function redirect($url){$/;"	function	line:72
+protocol	C:\xampp\htdocs\BBS\core\Controller.php	/^      $protocol = $this->request->isSsl() ? 'https:\/\/' : 'http:\/\/';$/;"	variable	line:74
+host	C:\xampp\htdocs\BBS\core\Controller.php	/^      $host = $this->request->getHost();$/;"	variable	line:75
+base_url	C:\xampp\htdocs\BBS\core\Controller.php	/^      $base_url = $this->request->getBaseUrl();$/;"	variable	line:76
+url	C:\xampp\htdocs\BBS\core\Controller.php	/^      $url = $protocol .$host .$base_url .$url;$/;"	variable	line:78
+generateCsrfToken	C:\xampp\htdocs\BBS\core\Controller.php	/^  protected function generateCsrfToken($form_name){$/;"	function	line:86
+key	C:\xampp\htdocs\BBS\core\Controller.php	/^    $key = 'csrf_tokens\/'. $form_name;$/;"	variable	line:87
+tokens	C:\xampp\htdocs\BBS\core\Controller.php	/^    $tokens = $this->session->get($key, array());$/;"	variable	line:88
+token	C:\xampp\htdocs\BBS\core\Controller.php	/^    $token = sha1($form_name .session_id(). microtime());$/;"	variable	line:93
+checkCsrfToken	C:\xampp\htdocs\BBS\core\Controller.php	/^  protected function checkCsrfToken($form_name,$token){$/;"	function	line:101
+key	C:\xampp\htdocs\BBS\core\Controller.php	/^    $key = 'csrf_tokens\/' .$form_name;$/;"	variable	line:102
+tokens	C:\xampp\htdocs\BBS\core\Controller.php	/^    $tokens = $this->session->get($key, array());$/;"	variable	line:103
+DbManager	C:\xampp\htdocs\BBS\core\DbManager.php	/^class DbManager{$/;"	class	line:3
+connections	C:\xampp\htdocs\BBS\core\DbManager.php	/^  protected $connections = array();$/;"	variable	line:5
+connections	C:\xampp\htdocs\BBS\core\DbManager.php	/^  protected $connections = array();$/;"	variable	line:5
+repositories	C:\xampp\htdocs\BBS\core\DbManager.php	/^  protected $repositories = array();$/;"	variable	line:6
+repositories	C:\xampp\htdocs\BBS\core\DbManager.php	/^  protected $repositories = array();$/;"	variable	line:6
+repository_connection_map	C:\xampp\htdocs\BBS\core\DbManager.php	/^  protected $repository_connection_map = array();$/;"	variable	line:7
+repository_connection_map	C:\xampp\htdocs\BBS\core\DbManager.php	/^  protected $repository_connection_map = array();$/;"	variable	line:7
+connect	C:\xampp\htdocs\BBS\core\DbManager.php	/^  public function connect($name, $params){$/;"	function	line:9
+params	C:\xampp\htdocs\BBS\core\DbManager.php	/^    $params = array_merge(array($/;"	variable	line:10
+con	C:\xampp\htdocs\BBS\core\DbManager.php	/^    $con = new PDO($/;"	variable	line:17
+getConnection	C:\xampp\htdocs\BBS\core\DbManager.php	/^  public function getConnection($name = null){$/;"	function	line:29
+setRepositoryConnectionMap	C:\xampp\htdocs\BBS\core\DbManager.php	/^  public function setRepositoryConnectionMap($repository_name, $name){$/;"	function	line:37
+getConnectionForRepository	C:\xampp\htdocs\BBS\core\DbManager.php	/^  public function getConnectionForRepository($repository_name){$/;"	function	line:41
+name	C:\xampp\htdocs\BBS\core\DbManager.php	/^      $name = $this->repository_connection_map[$repository_name];$/;"	variable	line:43
+con	C:\xampp\htdocs\BBS\core\DbManager.php	/^      $con = $this->getConnection();$/;"	variable	line:44
+con	C:\xampp\htdocs\BBS\core\DbManager.php	/^      $con = $this->getConnection();$/;"	variable	line:46
+get	C:\xampp\htdocs\BBS\core\DbManager.php	/^  public function get($repository_name){$/;"	function	line:52
+repository_class	C:\xampp\htdocs\BBS\core\DbManager.php	/^      $repository_class = $repository_name .'Repository';$/;"	variable	line:54
+con	C:\xampp\htdocs\BBS\core\DbManager.php	/^      $con = $this->getConnectionForRepository($repository_name);$/;"	variable	line:55
+repository	C:\xampp\htdocs\BBS\core\DbManager.php	/^      $repository = new $repository_class($con);$/;"	variable	line:57
+__destruct	C:\xampp\htdocs\BBS\core\DbManager.php	/^  public function __destruct(){$/;"	function	line:65
+DbRepository	C:\xampp\htdocs\BBS\core\DbRepository.php	/^abstract class DbRepository{$/;"	class	line:3
+con	C:\xampp\htdocs\BBS\core\DbRepository.php	/^  protected $con;$/;"	variable	line:5
+__construct	C:\xampp\htdocs\BBS\core\DbRepository.php	/^  public function __construct($con){$/;"	function	line:7
+setConnection	C:\xampp\htdocs\BBS\core\DbRepository.php	/^  public function setConnection($con){$/;"	function	line:11
+con	C:\xampp\htdocs\BBS\core\DbRepository.php	/^    $this->con = $con;$/;"	variable	line:12
+execute	C:\xampp\htdocs\BBS\core\DbRepository.php	/^  public function execute($sql, $params = array()){$/;"	function	line:15
+params	C:\xampp\htdocs\BBS\core\DbRepository.php	/^  public function execute($sql, $params = array()){$/;"	variable	line:15
+stmt	C:\xampp\htdocs\BBS\core\DbRepository.php	/^    $stmt = $this->con->prepare($sql);$/;"	variable	line:16
+fetch	C:\xampp\htdocs\BBS\core\DbRepository.php	/^  public function fetch($sql, $params = array()){$/;"	function	line:22
+params	C:\xampp\htdocs\BBS\core\DbRepository.php	/^  public function fetch($sql, $params = array()){$/;"	variable	line:22
+fetchAll	C:\xampp\htdocs\BBS\core\DbRepository.php	/^  public function fetchAll($sql, $params = array()){$/;"	function	line:26
+params	C:\xampp\htdocs\BBS\core\DbRepository.php	/^  public function fetchAll($sql, $params = array()){$/;"	variable	line:26
+selectAll	C:\xampp\htdocs\BBS\core\DbRepository.php	/^  public function selectAll($sql){$/;"	function	line:30
+HttpNotFoundException	C:\xampp\htdocs\BBS\core\HttpNotFoundException.php	/^class HttpNotFoundException extends Exception{};$/;"	class	line:3
+Request	C:\xampp\htdocs\BBS\core\Request.php	/^class Request{$/;"	class	line:3
+isPost	C:\xampp\htdocs\BBS\core\Request.php	/^  public function isPost(){$/;"	function	line:4
+getGet	C:\xampp\htdocs\BBS\core\Request.php	/^  public function getGet($name, $default = null){$/;"	function	line:11
+default	C:\xampp\htdocs\BBS\core\Request.php	/^  public function getGet($name, $default = null){$/;"	variable	line:11
+getPost	C:\xampp\htdocs\BBS\core\Request.php	/^  public function getPost($name, $default = null){$/;"	function	line:18
+default	C:\xampp\htdocs\BBS\core\Request.php	/^  public function getPost($name, $default = null){$/;"	variable	line:18
+getHost	C:\xampp\htdocs\BBS\core\Request.php	/^  public function getHost(){$/;"	function	line:25
+isSsl	C:\xampp\htdocs\BBS\core\Request.php	/^  public function isSsl(){$/;"	function	line:32
+getRequestUri	C:\xampp\htdocs\BBS\core\Request.php	/^  public function getRequestUri(){$/;"	function	line:39
+getBaseUrl	C:\xampp\htdocs\BBS\core\Request.php	/^  public function getBaseUrl(){$/;"	function	line:43
+script_name	C:\xampp\htdocs\BBS\core\Request.php	/^    $script_name = $_SERVER['SCRIPT_NAME'];$/;"	variable	line:44
+request_uri	C:\xampp\htdocs\BBS\core\Request.php	/^    $request_uri = $this->getRequestUri();$/;"	variable	line:46
+getPathInfo	C:\xampp\htdocs\BBS\core\Request.php	/^  public function getPathInfo(){$/;"	function	line:56
+base_url	C:\xampp\htdocs\BBS\core\Request.php	/^    $base_url = $this->getBaseUrl();$/;"	variable	line:57
+request_uri	C:\xampp\htdocs\BBS\core\Request.php	/^    $request_uri = $this->getRequestUri();$/;"	variable	line:58
+request_uri	C:\xampp\htdocs\BBS\core\Request.php	/^      $request_uri = substr($request_uri, 0, $pos);$/;"	variable	line:61
+path_info	C:\xampp\htdocs\BBS\core\Request.php	/^    $path_info = (string)substr($request_uri,strlen($base_url));$/;"	variable	line:63
+Response	C:\xampp\htdocs\BBS\core\Response.php	/^class Response{$/;"	class	line:3
+content	C:\xampp\htdocs\BBS\core\Response.php	/^  protected $content;$/;"	variable	line:5
+status_code	C:\xampp\htdocs\BBS\core\Response.php	/^  protected $status_code = 200;$/;"	variable	line:6
+status_code	C:\xampp\htdocs\BBS\core\Response.php	/^  protected $status_code = 200;$/;"	variable	line:6
+status_text	C:\xampp\htdocs\BBS\core\Response.php	/^  protected $status_text = 'OK';$/;"	variable	line:7
+status_text	C:\xampp\htdocs\BBS\core\Response.php	/^  protected $status_text = 'OK';$/;"	variable	line:7
+http_headers	C:\xampp\htdocs\BBS\core\Response.php	/^  protected $http_headers = array();$/;"	variable	line:8
+http_headers	C:\xampp\htdocs\BBS\core\Response.php	/^  protected $http_headers = array();$/;"	variable	line:8
+send	C:\xampp\htdocs\BBS\core\Response.php	/^  public function send(){$/;"	function	line:10
+name	C:\xampp\htdocs\BBS\core\Response.php	/^    foreach($this->http_headers as $name=>$value){$/;"	variable	line:13
+setContent	C:\xampp\htdocs\BBS\core\Response.php	/^  public function setContent($content){$/;"	function	line:20
+content	C:\xampp\htdocs\BBS\core\Response.php	/^    $this->content = $content;$/;"	variable	line:21
+setStatusCode	C:\xampp\htdocs\BBS\core\Response.php	/^  public function setStatusCode($status_code, $status_text = ''){$/;"	function	line:24
+status_text	C:\xampp\htdocs\BBS\core\Response.php	/^  public function setStatusCode($status_code, $status_text = ''){$/;"	variable	line:24
+status_code	C:\xampp\htdocs\BBS\core\Response.php	/^    $this->status_code = $status_code;$/;"	variable	line:25
+status_text	C:\xampp\htdocs\BBS\core\Response.php	/^    $this->status_text = $status_text;$/;"	variable	line:26
+setHttpHeader	C:\xampp\htdocs\BBS\core\Response.php	/^  public function setHttpHeader($name, $value){$/;"	function	line:29
+Router	C:\xampp\htdocs\BBS\core\Router.php	/^class Router{$/;"	class	line:3
+routes	C:\xampp\htdocs\BBS\core\Router.php	/^  protected $routes;$/;"	variable	line:4
+__construct	C:\xampp\htdocs\BBS\core\Router.php	/^  public function __construct($definitions){$/;"	function	line:6
+routes	C:\xampp\htdocs\BBS\core\Router.php	/^    $this->routes = $this->compileRoutes($definitions);$/;"	variable	line:7
+compileRoutes	C:\xampp\htdocs\BBS\core\Router.php	/^  public function compileRoutes($definitions){$/;"	function	line:10
+routes	C:\xampp\htdocs\BBS\core\Router.php	/^    $routes = array();$/;"	variable	line:11
+url	C:\xampp\htdocs\BBS\core\Router.php	/^    foreach($definitions as $url => $params){$/;"	variable	line:13
+tokens	C:\xampp\htdocs\BBS\core\Router.php	/^      $tokens = explode('\/', ltrim($url, '\/'));$/;"	variable	line:14
+i	C:\xampp\htdocs\BBS\core\Router.php	/^      foreach ($tokens as $i=>$token){$/;"	variable	line:15
+name	C:\xampp\htdocs\BBS\core\Router.php	/^          $name = substr($token, '1');$/;"	variable	line:17
+token	C:\xampp\htdocs\BBS\core\Router.php	/^          $token = '(?P<'. $name .'>[^\/]+)';$/;"	variable	line:18
+pattern	C:\xampp\htdocs\BBS\core\Router.php	/^      $pattern='\/'. implode('\/', $tokens);$/;"	variable	line:23
+resolve	C:\xampp\htdocs\BBS\core\Router.php	/^  public function resolve($path_info){$/;"	function	line:30
+path_info	C:\xampp\htdocs\BBS\core\Router.php	/^      $path_info = '\/'. $path_info;$/;"	variable	line:32
+pattern	C:\xampp\htdocs\BBS\core\Router.php	/^    foreach($this->routes as $pattern=>$params){$/;"	variable	line:35
+params	C:\xampp\htdocs\BBS\core\Router.php	/^        $params = array_merge($params, $matches);$/;"	variable	line:37
+Session	C:\xampp\htdocs\BBS\core\Session.php	/^class Session{$/;"	class	line:3
+sessionStarted	C:\xampp\htdocs\BBS\core\Session.php	/^  protected static $sessionStarted = false;$/;"	variable	line:5
+sessionStarted	C:\xampp\htdocs\BBS\core\Session.php	/^  protected static $sessionStarted = false;$/;"	variable	line:5
+sessionIdRegenerated	C:\xampp\htdocs\BBS\core\Session.php	/^  protected static $sessionIdRegenerated = false;$/;"	variable	line:6
+sessionIdRegenerated	C:\xampp\htdocs\BBS\core\Session.php	/^  protected static $sessionIdRegenerated = false;$/;"	variable	line:6
+__construct	C:\xampp\htdocs\BBS\core\Session.php	/^  public function __construct(){$/;"	function	line:8
+set	C:\xampp\htdocs\BBS\core\Session.php	/^  public function set($name, $value){$/;"	function	line:16
+get	C:\xampp\htdocs\BBS\core\Session.php	/^  public function get($name, $default = null){$/;"	function	line:20
+default	C:\xampp\htdocs\BBS\core\Session.php	/^  public function get($name, $default = null){$/;"	variable	line:20
+remove	C:\xampp\htdocs\BBS\core\Session.php	/^   public function remove($name){$/;"	function	line:28
+clear	C:\xampp\htdocs\BBS\core\Session.php	/^   public function clear(){$/;"	function	line:32
+_SESSION	C:\xampp\htdocs\BBS\core\Session.php	/^     $_SESSION = array();$/;"	variable	line:33
+regenerate	C:\xampp\htdocs\BBS\core\Session.php	/^   public function regenerate($destroy = true){$/;"	function	line:36
+setAuthenticated	C:\xampp\htdocs\BBS\core\Session.php	/^   public function setAuthenticated($bool){$/;"	function	line:44
+isAuthenticated	C:\xampp\htdocs\BBS\core\Session.php	/^   public function isAuthenticated(){$/;"	function	line:50
+UnauthorizedActionException	C:\xampp\htdocs\BBS\core\UnauthorizedActionException.php	/^class UnauthorizedActionException extends Exception {};$/;"	class	line:3
+View	C:\xampp\htdocs\BBS\core\View.php	/^class View{$/;"	class	line:3
+base_dir	C:\xampp\htdocs\BBS\core\View.php	/^  protected $base_dir;$/;"	variable	line:5
+defaults	C:\xampp\htdocs\BBS\core\View.php	/^  protected $defaults;$/;"	variable	line:6
+layout_variables	C:\xampp\htdocs\BBS\core\View.php	/^  protected $layout_variables = array();$/;"	variable	line:7
+layout_variables	C:\xampp\htdocs\BBS\core\View.php	/^  protected $layout_variables = array();$/;"	variable	line:7
+__construct	C:\xampp\htdocs\BBS\core\View.php	/^  public function __construct($base_dir, $defaults = array()){$/;"	function	line:9
+defaults	C:\xampp\htdocs\BBS\core\View.php	/^  public function __construct($base_dir, $defaults = array()){$/;"	variable	line:9
+base_dir	C:\xampp\htdocs\BBS\core\View.php	/^    $this->base_dir = $base_dir;$/;"	variable	line:10
+defaults	C:\xampp\htdocs\BBS\core\View.php	/^    $this->defaults = $defaults;$/;"	variable	line:11
+setLayoutVar	C:\xampp\htdocs\BBS\core\View.php	/^  public function setLayoutVar($name, $value){$/;"	function	line:14
+render	C:\xampp\htdocs\BBS\core\View.php	/^  public function render($_path, $_variables = array(), $_layout = false){$/;"	function	line:18
+_variables	C:\xampp\htdocs\BBS\core\View.php	/^  public function render($_path, $_variables = array(), $_layout = false){$/;"	variable	line:18
+_file	C:\xampp\htdocs\BBS\core\View.php	/^    $_file = $this->base_dir .'\/'. $_path .'.php';$/;"	variable	line:19
+content	C:\xampp\htdocs\BBS\core\View.php	/^    $content = ob_get_clean();$/;"	variable	line:28
+content	C:\xampp\htdocs\BBS\core\View.php	/^      $content = $this->render($_layout, array_merge($this->layout_variables, array($/;"	variable	line:31
+escape	C:\xampp\htdocs\BBS\core\View.php	/^  public function escape($string){$/;"	function	line:40
+BranchRepository	C:\xampp\htdocs\BBS\models\BranchRepository.php	/^class BranchRepository extends DbRepository{$/;"	class	line:3
+getBranch	C:\xampp\htdocs\BBS\models\BranchRepository.php	/^  public function getBranch(){$/;"	function	line:5
+sql	C:\xampp\htdocs\BBS\models\BranchRepository.php	/^    $sql="SELECT * FROM branchs";$/;"	variable	line:6
+stmt	C:\xampp\htdocs\BBS\models\BranchRepository.php	/^    $stmt = $this->selectAll($sql);$/;"	variable	line:7
+CategoryRepository	C:\xampp\htdocs\BBS\models\CategoryRepository.php	/^class CategoryRepository extends DbRepository{$/;"	class	line:3
+getCategory	C:\xampp\htdocs\BBS\models\CategoryRepository.php	/^  public function getCategory(){$/;"	function	line:5
+sql	C:\xampp\htdocs\BBS\models\CategoryRepository.php	/^    $sql="SELECT category FROM threads";$/;"	variable	line:6
+stmt	C:\xampp\htdocs\BBS\models\CategoryRepository.php	/^    $stmt = $this->selectAll($sql);$/;"	variable	line:7
+CommentRepository	C:\xampp\htdocs\BBS\models\CommentRepository.php	/^class CommentRepository extends DbRepository{$/;"	class	line:3
+fetchAllComment	C:\xampp\htdocs\BBS\models\CommentRepository.php	/^  public function fetchAllComment(){$/;"	function	line:4
+sql	C:\xampp\htdocs\BBS\models\CommentRepository.php	/^    $sql = "SELECT * FROM comments_users ORDER BY insert_date DESC";$/;"	variable	line:5
+stmt	C:\xampp\htdocs\BBS\models\CommentRepository.php	/^    $stmt = $this->selectAll($sql);$/;"	variable	line:6
+insert	C:\xampp\htdocs\BBS\models\CommentRepository.php	/^  public function insert($user_id, $text, $thread_id){$/;"	function	line:11
+now	C:\xampp\htdocs\BBS\models\CommentRepository.php	/^    $now = new DateTime();$/;"	variable	line:12
+sql	C:\xampp\htdocs\BBS\models\CommentRepository.php	/^    $sql="INSERT INTO comments(user_id, thread_id, text, insert_date)$/;"	variable	line:14
+stmt	C:\xampp\htdocs\BBS\models\CommentRepository.php	/^      $stmt = $this->execute($sql, array($/;"	variable	line:17
+HomeRepository	C:\xampp\htdocs\BBS\models\HomeRepository.php	/^class HomeRepository extends DbRepository{$/;"	class	line:3
+insert	C:\xampp\htdocs\BBS\models\HomeRepository.php	/^  public function insert($user_id, $body){$/;"	function	line:5
+now	C:\xampp\htdocs\BBS\models\HomeRepository.php	/^    $now = new DateTime();$/;"	variable	line:6
+sql	C:\xampp\htdocs\BBS\models\HomeRepository.php	/^    $sql = "INSERT INTO status(user_id, body, insert_date)$/;"	variable	line:8
+stmt	C:\xampp\htdocs\BBS\models\HomeRepository.php	/^    $stmt = $this->execute($sql, array($/;"	variable	line:11
+fetchAllByUserId	C:\xampp\htdocs\BBS\models\HomeRepository.php	/^  public function fetchAllByUserId($user_id){$/;"	function	line:18
+sql	C:\xampp\htdocs\BBS\models\HomeRepository.php	/^    $sql = "SELECT a.*, u.user_name$/;"	variable	line:19
+fetchByIdAndUserName	C:\xampp\htdocs\BBS\models\HomeRepository.php	/^  public function fetchByIdAndUserName($id, $user_name){$/;"	function	line:28
+sql	C:\xampp\htdocs\BBS\models\HomeRepository.php	/^    $sql = "SELECT a.*, u.user_name$/;"	variable	line:29
+PositionRepository	C:\xampp\htdocs\BBS\models\PositionRepository.php	/^class PositionRepository extends DbRepository{$/;"	class	line:3
+getPosition	C:\xampp\htdocs\BBS\models\PositionRepository.php	/^  public function getPosition(){$/;"	function	line:5
+sql	C:\xampp\htdocs\BBS\models\PositionRepository.php	/^    $sql="SELECT * FROM positions";$/;"	variable	line:6
+stmt	C:\xampp\htdocs\BBS\models\PositionRepository.php	/^    $stmt = $this->selectAll($sql);$/;"	variable	line:7
+ThreadRepository	C:\xampp\htdocs\BBS\models\ThreadRepository.php	/^class ThreadRepository extends DbRepository{$/;"	class	line:3
+fetchAllThread	C:\xampp\htdocs\BBS\models\ThreadRepository.php	/^  public function fetchAllThread(){$/;"	function	line:4
+sql	C:\xampp\htdocs\BBS\models\ThreadRepository.php	/^    $sql = "SELECT * From threads_users ORDER BY insert_date DESC";$/;"	variable	line:5
+stmt	C:\xampp\htdocs\BBS\models\ThreadRepository.php	/^    $stmt = $this->selectAll($sql);$/;"	variable	line:6
+insert	C:\xampp\htdocs\BBS\models\ThreadRepository.php	/^  public function insert($user_id, $title, $category, $text){$/;"	function	line:11
+now	C:\xampp\htdocs\BBS\models\ThreadRepository.php	/^    $now = new DateTime();$/;"	variable	line:12
+sql	C:\xampp\htdocs\BBS\models\ThreadRepository.php	/^    $sql="INSERT INTO threads(user_id, title, category, text, insert_date)$/;"	variable	line:14
+stmt	C:\xampp\htdocs\BBS\models\ThreadRepository.php	/^      $stmt = $this->execute($sql, array($/;"	variable	line:17
+UserRepository	C:\xampp\htdocs\BBS\models\UserRepository.php	/^class UserRepository extends DbRepository{$/;"	class	line:3
+insert	C:\xampp\htdocs\BBS\models\UserRepository.php	/^  public function insert($account, $user_name, $password, $branch_id, $position_id){$/;"	function	line:5
+password	C:\xampp\htdocs\BBS\models\UserRepository.php	/^    $password = $this->hashPassword($password);$/;"	variable	line:6
+now	C:\xampp\htdocs\BBS\models\UserRepository.php	/^    $now = new DateTime();$/;"	variable	line:7
+sql	C:\xampp\htdocs\BBS\models\UserRepository.php	/^    $sql="INSERT INTO users(account, name, password, branch_id, position_id, insert_date)$/;"	variable	line:9
+stmt	C:\xampp\htdocs\BBS\models\UserRepository.php	/^      $stmt = $this->execute($sql, array($/;"	variable	line:12
+update	C:\xampp\htdocs\BBS\models\UserRepository.php	/^  public function update($account, $user_name, $password, $branch_id, $position_id, $user_id){$/;"	function	line:22
+now	C:\xampp\htdocs\BBS\models\UserRepository.php	/^    $now = new DateTime();$/;"	variable	line:24
+password	C:\xampp\htdocs\BBS\models\UserRepository.php	/^      $password = $this->hashPassword($password);$/;"	variable	line:26
+sql	C:\xampp\htdocs\BBS\models\UserRepository.php	/^      $sql="UPDATE users SET account=:account, name=:name, branch_id=:branch_id, position_id=:position_id, update_date=:update_date, password=:password$/;"	variable	line:28
+stmt	C:\xampp\htdocs\BBS\models\UserRepository.php	/^      $stmt = $this->execute($sql, array($/;"	variable	line:31
+sql	C:\xampp\htdocs\BBS\models\UserRepository.php	/^      $sql="UPDATE users SET account=:account, name=:name, branch_id=:branch_id, position_id=:position_id, update_date=:update_date$/;"	variable	line:41
+stmt	C:\xampp\htdocs\BBS\models\UserRepository.php	/^      $stmt = $this->execute($sql, array($/;"	variable	line:44
+hashPassword	C:\xampp\htdocs\BBS\models\UserRepository.php	/^  public function hashPassword($password){$/;"	function	line:55
+fetchByUserName	C:\xampp\htdocs\BBS\models\UserRepository.php	/^  public function fetchByUserName($account){$/;"	function	line:59
+sql	C:\xampp\htdocs\BBS\models\UserRepository.php	/^    $sql = "SELECT * FROM users WHERE account = :account";$/;"	variable	line:60
+isUniqueUserName	C:\xampp\htdocs\BBS\models\UserRepository.php	/^  public function isUniqueUserName($account, $user_id){$/;"	function	line:65
+sql	C:\xampp\htdocs\BBS\models\UserRepository.php	/^    $sql = "SELECT * FROM users WHERE account = :account";$/;"	variable	line:66
+row	C:\xampp\htdocs\BBS\models\UserRepository.php	/^    $row = $this->fetch($sql, array(':account' => $account));$/;"	variable	line:68
+getUsers	C:\xampp\htdocs\BBS\models\UserRepository.php	/^  public function getUsers(){$/;"	function	line:78
+sql	C:\xampp\htdocs\BBS\models\UserRepository.php	/^    $sql = "SELECT * FROM user_view";$/;"	variable	line:79
+getUserById	C:\xampp\htdocs\BBS\models\UserRepository.php	/^  public function getUserById($user_id){$/;"	function	line:84
+sql	C:\xampp\htdocs\BBS\models\UserRepository.php	/^    $sql = "SELECT * FROM users WHERE id = :user_id";$/;"	variable	line:85
+freeze	C:\xampp\htdocs\BBS\models\UserRepository.php	/^  public function freeze($user_id, $freeze){$/;"	function	line:90
+freeze	C:\xampp\htdocs\BBS\models\UserRepository.php	/^        $freeze = 1;$/;"	variable	line:93
+freeze	C:\xampp\htdocs\BBS\models\UserRepository.php	/^        $freeze = 0;$/;"	variable	line:97
+sql	C:\xampp\htdocs\BBS\models\UserRepository.php	/^    $sql = "UPDATE users SET freeze = :freeze WHERE id = :user_id";$/;"	variable	line:101
+loginUser	C:\xampp\htdocs\BBS\views\home\index.php	/^  <?php $loginUser = $_SESSION['loginUser'];$/;"	variable	line:4
+body	C:\xampp\htdocs\BBS\web\css\style.css	/^body{$/;"	function	line:1
+#container	C:\xampp\htdocs\BBS\web\css\style.css	/^#container {$/;"	function	line:7
+.main-content	C:\xampp\htdocs\BBS\web\css\style.css	/^.main-content {$/;"	function	line:16
+.profile	C:\xampp\htdocs\BBS\web\css\style.css	/^.profile{$/;"	function	line:25
+.profile h2	C:\xampp\htdocs\BBS\web\css\style.css	/^.profile h2{$/;"	function	line:31
+.header	C:\xampp\htdocs\BBS\web\css\style.css	/^.header {$/;"	function	line:37
+#footer	C:\xampp\htdocs\BBS\web\css\style.css	/^#footer {$/;"	function	line:45
+.errorMessages	C:\xampp\htdocs\BBS\web\css\style.css	/^.errorMessages {$/;"	function	line:52
+.successMessages	C:\xampp\htdocs\BBS\web\css\style.css	/^.successMessages {$/;"	function	line:60
+div.search	C:\xampp\htdocs\BBS\web\css\style.css	/^div.search{$/;"	function	line:68
+div.search :FIRST-CHILD	C:\xampp\htdocs\BBS\web\css\style.css	/^div.search :FIRST-CHILD {$/;"	function	line:75
+div.setting	C:\xampp\htdocs\BBS\web\css\style.css	/^div.setting{$/;"	function	line:79
+form.comment-area	C:\xampp\htdocs\BBS\web\css\style.css	/^form.comment-area{$/;"	function	line:86
+form#newThread	C:\xampp\htdocs\BBS\web\css\style.css	/^form#newThread{$/;"	function	line:92
+.newThread	C:\xampp\htdocs\BBS\web\css\style.css	/^.newThread{$/;"	function	line:96
+#categoryTitle	C:\xampp\htdocs\BBS\web\css\style.css	/^#categoryTitle{$/;"	function	line:100
+div.category	C:\xampp\htdocs\BBS\web\css\style.css	/^div.category{$/;"	function	line:104
+div.login	C:\xampp\htdocs\BBS\web\css\style.css	/^div.login{$/;"	function	line:108
+.message	C:\xampp\htdocs\BBS\web\css\style.css	/^.message{$/;"	function	line:116
+input#submit_button	C:\xampp\htdocs\BBS\web\css\style.css	/^input#submit_button{$/;"	function	line:121
+table.thread	C:\xampp\htdocs\BBS\web\css\style.css	/^table.thread{$/;"	function	line:126
+table.userManagement	C:\xampp\htdocs\BBS\web\css\style.css	/^table.userManagement{$/;"	function	line:131
+table.userManagement td	C:\xampp\htdocs\BBS\web\css\style.css	/^table.userManagement td{$/;"	function	line:139
+.comment	C:\xampp\htdocs\BBS\web\css\style.css	/^.comment{$/;"	function	line:143
+th	C:\xampp\htdocs\BBS\web\css\style.css	/^th{$/;"	function	line:148
+th.thread	C:\xampp\htdocs\BBS\web\css\style.css	/^th.thread{$/;"	function	line:153
+td	C:\xampp\htdocs\BBS\web\css\style.css	/^td{$/;"	function	line:159
+td.title	C:\xampp\htdocs\BBS\web\css\style.css	/^td.title{$/;"	function	line:163
+td.text	C:\xampp\htdocs\BBS\web\css\style.css	/^td.text{$/;"	function	line:168
+td.td_submit	C:\xampp\htdocs\BBS\web\css\style.css	/^td.td_submit{$/;"	function	line:174
+.submit	C:\xampp\htdocs\BBS\web\css\style.css	/^.submit{$/;"	function	line:178
+input#comment_submit	C:\xampp\htdocs\BBS\web\css\style.css	/^input#comment_submit{$/;"	function	line:182
+td.freeze	C:\xampp\htdocs\BBS\web\css\style.css	/^td.freeze{$/;"	function	line:187
+div.stop	C:\xampp\htdocs\BBS\web\css\style.css	/^div.stop{$/;"	function	line:191
+.text-box	C:\xampp\htdocs\BBS\web\css\style.css	/^.text-box{$/;"	function	line:195
+.delete-button	C:\xampp\htdocs\BBS\web\css\style.css	/^.delete-button{$/;"	function	line:199
+input.delete_submit	C:\xampp\htdocs\BBS\web\css\style.css	/^input.delete_submit{$/;"	function	line:203
+.comment-date	C:\xampp\htdocs\BBS\web\css\style.css	/^.comment-date{$/;"	function	line:207
+.comment :first-child	C:\xampp\htdocs\BBS\web\css\style.css	/^.comment :first-child {$/;"	function	line:216
+.comment :first-child .comment-date	C:\xampp\htdocs\BBS\web\css\style.css	/^.comment :first-child .comment-date{$/;"	function	line:220
+.comment-text	C:\xampp\htdocs\BBS\web\css\style.css	/^.comment-text{$/;"	function	line:224
+textarea	C:\xampp\htdocs\BBS\web\css\style.css	/^textarea{$/;"	function	line:229
+label	C:\xampp\htdocs\BBS\web\css\style.css	/^label{$/;"	function	line:233
+pre	C:\xampp\htdocs\BBS\web\css\style.css	/^pre{$/;"	function	line:238
+ul	C:\xampp\htdocs\BBS\web\css\style.css	/^ul{$/;"	function	line:245
+#dialog	C:\xampp\htdocs\BBS\web\css\style.css	/^#dialog{$/;"	function	line:249
+input#account	C:\xampp\htdocs\BBS\web\css\style.css	/^input#account{$/;"	function	line:254
+input#password	C:\xampp\htdocs\BBS\web\css\style.css	/^input#password{$/;"	function	line:258
+div.copyRight	C:\xampp\htdocs\BBS\web\css\style.css	/^div.copyRight {$/;"	function	line:262
+app	C:\xampp\htdocs\BBS\web\index.php	/^$app = new BbsApplication(false);$/;"	variable	line:7
+getBranch	C:\xampp\htdocs\BBS\web\index.php	/^$getBranch = new BranchRepository;$/;"	variable	line:9
+branchs	C:\xampp\htdocs\BBS\web\index.php	/^$branchs = new getBranch();$/;"	variable	line:10
+app	C:\xampp\htdocs\BBS\web\index_dev.php	/^$app = new BbsApplication(true);$/;"	variable	line:6

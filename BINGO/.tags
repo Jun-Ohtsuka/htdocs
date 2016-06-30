@@ -1,0 +1,18 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Bingo	C:\xampp\htdocs\BINGO\Bingo.php	/^class Bingo{$/;"	class	line:5
+create	C:\xampp\htdocs\BINGO\Bingo.php	/^	public function create(){$/;"	function	line:7
+nums	C:\xampp\htdocs\BINGO\Bingo.php	/^		$nums = [];$/;"	variable	line:8
+col	C:\xampp\htdocs\BINGO\Bingo.php	/^			$col = range($i * 15 +1, $i * 15 + 15);$/;"	variable	line:11
+h	C:\xampp\htdocs\BINGO\functions.php	/^function h($s){$/;"	function	line:3
+bingo	C:\xampp\htdocs\BINGO\index.php	/^$bingo = new \\MyApp\\Bingo();$/;"	variable	line:7
+nums	C:\xampp\htdocs\BINGO\index.php	/^$nums = $bingo->create();$/;"	variable	line:8
+body	C:\xampp\htdocs\BINGO\style.css	/^body{$/;"	function	line:1
+#container	C:\xampp\htdocs\BINGO\style.css	/^#container{$/;"	function	line:7
+td, th	C:\xampp\htdocs\BINGO\style.css	/^td, th{$/;"	function	line:12
+td	C:\xampp\htdocs\BINGO\style.css	/^td{$/;"	function	line:17
+th	C:\xampp\htdocs\BINGO\style.css	/^th{$/;"	function	line:22

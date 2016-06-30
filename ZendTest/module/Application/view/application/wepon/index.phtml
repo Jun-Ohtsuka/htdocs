@@ -1,0 +1,28 @@
+<?php $this->headTitle()->set('Wepon'); ?>
+<div id="home">
+  <h1>Wepon/index!</h1>
+  <div id="navi">
+    <a href="/wepon/newwepon">新規登録</a>
+  </div><br />
+  <table border=1px>
+    <tr>
+      <th>ID</th><th>名前</th><th>属性</th><th>HP</th><th>ATK</th><th>スキル1</th><th>スキル2</th><th>スキルレベル</th>
+    </tr>
+    <?php foreach ($wepons as $wepon) : ?>
+      <tr>
+        <td><?php echo $wepon->id; ?></td>
+        <td><a href="/wepon/setting?id=<?php echo $wepon->id; ?>" ><?php echo $wepon->name; ?></a></td>
+        <td><?php echo $types["{$wepon->type_id}"]; ?></td>
+        <td><?php echo $wepon->hp; ?></td>
+        <td><?php echo $wepon->atk; ?></td>
+        <td><?php echo $skills["{$wepon->skill_id1}"]; ?></td>
+        <td><?php echo $skills["{$wepon->skill_id2}"]; ?></td>
+        <td><?php echo $wepon->skill_level; ?></td>
+        <form action="home/delete" method="post">
+          <input type="hidden" name="id" value="<?php echo $wepon->id; ?>" />
+          <td><input type="submit" name="submit" value="delete" onclick="return confirm('本当に削除してよろしいですか?')"/> </td>
+        </form>
+      </tr>
+    <?php endforeach; ?>
+  </table>
+</div>

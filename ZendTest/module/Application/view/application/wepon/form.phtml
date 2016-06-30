@@ -1,0 +1,33 @@
+<table>
+  <tr><td>Name ： <input type="text" name="name" value="<?php echo $name; ?>"/></td></tr>
+  <tr><td>type ：
+    <select name="type_id">
+      <?php foreach($types as $type): ?>
+        <option value="<?php echo $type->id; ?>" <?php if($type_id == $type->id){echo 'selected';} ?>>
+          <?php echo $type->name; ?>
+        </option>
+      <?php endforeach; ?>
+    </select>
+  </td></tr>
+  <tr><td>hp ： <input type="number" name="hp" max="1000" min="1" value="<?php echo $hp; ?>"/></td></tr>
+  <tr><td>atk ： <input type="number" name="atk" max="5000" min="1" value="<?php echo $atk; ?>"/></td></tr>
+  <tr><td>skill1 ：
+    <select name="skill_id1">
+      <?php foreach($skills as $skill): ?>
+        <option value="<?php echo $skill->id; ?>" <?php if($skill_id1 == $skill->id){echo 'selected';} ?>>
+          <?php echo $skill->name; ?>
+        </option>
+      <?php endforeach; ?>
+    </select>
+  </td></tr>
+  <tr><td>skill2 ：
+    <select name="skill_id2">
+      <?php foreach($skills as $skill): ?>
+        <option value="<?php echo $skill->id; ?>" <?php if($skill_id2 == $skill->id){echo 'selected';} ?>>
+          <?php echo $skill->name; ?>
+        </option>
+      <?php endforeach; ?>
+    </select>
+  </td></tr>
+  <tr><td>SkillLevel ： <input type="number" name="skill_level" max="15" min="0" value="<?php echo $skill_level; ?>"/></td></tr>
+</table>

@@ -1,0 +1,42 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+diceCount	C:\xampp\htdocs\study.localhost\DX3DICE.php	/^	$diceCount = (int)$_GET['dice'];\/\/判定ダイスの数$/;"	variable	line:5
+skillPoint	C:\xampp\htdocs\study.localhost\DX3DICE.php	/^	$skillPoint = (int)$_GET['skill'];;\/\/判定の技能値$/;"	variable	line:6
+critical	C:\xampp\htdocs\study.localhost\DX3DICE.php	/^	$critical = (int)$_GET['critical'];;\/\/C値$/;"	variable	line:7
+attack	C:\xampp\htdocs\study.localhost\DX3DICE.php	/^	$attack = (int)$_GET['attack'];;\/\/攻撃力固定値$/;"	variable	line:8
+roopCount	C:\xampp\htdocs\study.localhost\DX3DICE.php	/^	$roopCount = 0;$/;"	variable	line:10
+dice10Count	C:\xampp\htdocs\study.localhost\DX3DICE.php	/^		$dice10Count = 0;$/;"	variable	line:13
+diceset	C:\xampp\htdocs\study.localhost\DX3DICE.php	/^		$diceset = array();$/;"	variable	line:18
+dice	C:\xampp\htdocs\study.localhost\DX3DICE.php	/^			$dice = mt_rand(1,10);$/;"	variable	line:20
+diceCount	C:\xampp\htdocs\study.localhost\DX3DICE.php	/^		$diceCount = $dice10Count;$/;"	variable	line:27
+achieved	C:\xampp\htdocs\study.localhost\DX3DICE.php	/^	$achieved = max($diceset) + $skillPoint;$/;"	variable	line:31
+attackDice	C:\xampp\htdocs\study.localhost\DX3DICE.php	/^	$attackDice = round($achieved\/10);$/;"	variable	line:35
+dice	C:\xampp\htdocs\study.localhost\DX3DICE.php	/^		$dice = mt_rand(1,10);$/;"	variable	line:39
+attack	C:\xampp\htdocs\study.localhost\DX3DICE.php	/^		$attack = $attack + $dice;$/;"	variable	line:41
+DB_DATABASE	C:\xampp\htdocs\study.localhost\phpDB.php	/^define('DB_DATABASE', 'php_db');$/;"	define	line:3
+DB_USERNAME	C:\xampp\htdocs\study.localhost\phpDB.php	/^define('DB_USERNAME', 'root');$/;"	define	line:4
+DB_PASSWORD	C:\xampp\htdocs\study.localhost\phpDB.php	/^define('DB_PASSWORD', 'artonelico');$/;"	define	line:5
+PDO_DSN	C:\xampp\htdocs\study.localhost\phpDB.php	/^define('PDO_DSN', 'mysql:dbhost=localhost;dbname='. DB_DATABASE);$/;"	define	line:6
+USer	C:\xampp\htdocs\study.localhost\phpDB.php	/^	class USer{$/;"	class	line:9
+id	C:\xampp\htdocs\study.localhost\phpDB.php	/^	\/\/	public $id;$/;"	variable	line:10
+name	C:\xampp\htdocs\study.localhost\phpDB.php	/^	\/\/	public $name;$/;"	variable	line:11
+score	C:\xampp\htdocs\study.localhost\phpDB.php	/^	\/\/	public $score;$/;"	variable	line:12
+show	C:\xampp\htdocs\study.localhost\phpDB.php	/^		public function show(){$/;"	function	line:13
+db	C:\xampp\htdocs\study.localhost\phpDB.php	/^	$db = new PDO(PDO_DSN,DB_USERNAME,DB_PASSWORD);$/;"	variable	line:20
+diceCount	C:\xampp\htdocs\study.localhost\test.php	/^$diceCount = 24;\/\/判定ダイスの数$/;"	variable	line:4
+skillPoint	C:\xampp\htdocs\study.localhost\test.php	/^$skillPoint = 6;\/\/判定の技能値$/;"	variable	line:5
+critical	C:\xampp\htdocs\study.localhost\test.php	/^$critical = 7;\/\/C値$/;"	variable	line:6
+attack	C:\xampp\htdocs\study.localhost\test.php	/^$attack = 75;\/\/攻撃力固定値$/;"	variable	line:7
+roopCount	C:\xampp\htdocs\study.localhost\test.php	/^$roopCount = 0;$/;"	variable	line:10
+dice10Count	C:\xampp\htdocs\study.localhost\test.php	/^	$dice10Count = 0;$/;"	variable	line:13
+diceset	C:\xampp\htdocs\study.localhost\test.php	/^	$diceset = array();$/;"	variable	line:18
+dice	C:\xampp\htdocs\study.localhost\test.php	/^		$dice = mt_rand(1,10);$/;"	variable	line:20
+diceCount	C:\xampp\htdocs\study.localhost\test.php	/^	$diceCount = $dice10Count;$/;"	variable	line:27
+achieved	C:\xampp\htdocs\study.localhost\test.php	/^$achieved = max($diceset) + $skillPoint;$/;"	variable	line:31
+attackDice	C:\xampp\htdocs\study.localhost\test.php	/^$attackDice = round($achieved\/10);$/;"	variable	line:35
+dice	C:\xampp\htdocs\study.localhost\test.php	/^	$dice = mt_rand(1,10);$/;"	variable	line:39
+attack	C:\xampp\htdocs\study.localhost\test.php	/^	$attack = $attack + $dice;$/;"	variable	line:41
